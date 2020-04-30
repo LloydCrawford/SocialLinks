@@ -102,3 +102,18 @@ ul {
 .links li:hover {
     opacity: 2;
 }
+
+.downloadBtn {
+    border-radius: 15px 15px;
+    border-width: 2px;
+    line-height: 22px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 12px 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #FEDBD0;
+    width: fit-content;
+    align-content: center;
+/* Creates a button for the dowload link */
+}

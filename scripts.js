@@ -1,9 +1,12 @@
-/* SCRIPTS.JS */
 
-function changePic() {
-    document.getElementById("profilePic").src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/594589/adrian-prp.jpg";
-  }
-  
   function normalPic() {
     document.getElementById("profilePic") .src = "Images/lloyd_crawford2.jpg";
   }
+
+
+
+  let download = document.getElementById("cvDownload");
+download.addEventListener('click', request);
+function request() {
+  window.location = 'assets/CV - Lloyd Crawford.docx';
+}
